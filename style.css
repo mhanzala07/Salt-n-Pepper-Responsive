@@ -1,0 +1,92 @@
+
+/* css-variables */
+:root {
+    --red: #ff0000;
+    --white: #ffffff;
+    --black:#000000;
+    --gray:#b7b5ad;
+}
+/* navbar styling */
+#navbar-items{
+    gap: 30px;
+    padding: 20px 210px;
+}
+#navbar{
+    padding-top: 10px;
+    padding-left: 210px;
+    padding-bottom: 15px;
+    
+    
+}
+#franchise{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#order{
+    background-color: var(--red);
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+}
+#padding{
+    padding-top: 140px;
+    padding-bottom: 20px;
+}
+#line-height{
+    line-height: 40px;
+}
+#p-isl-area{
+    padding-top: 40px;
+    padding-left: 220px;
+}
+#single-img-button-bg-c{
+    background-color:#00a94e ;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+}
+#padding-five-img{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    row-gap: 20px;
+}
+#card-last-padding{
+width: 340px;
+height: 430px; 
+background-color: black;
+padding:5px 5px 5px 5px ;
+text-align: center;
+line-height: 0.50px;
+border-radius:px;
+}
+#book-1{
+    border: 1px solid grey;
+}
+nav{
+    gap: 30px;
+    list-style: none;
+}
+#icon{
+    font-size: 30px;
+    display: none;
+}
+@media(max-width:700px){
+    nav{
+        display: none;
+    }
+    #icon{
+        display: block;
+    }
+}
